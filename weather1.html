@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather1.css">
+</head>
+<body>
+    <section class="weatherapp">
+        <div class="location">
+            <h3 id="city" style="font-size: 50px;">City Name</h3>
+            <h5 id="country" style="font-size: 30px;">Country Name</h5>
+            <div class="information">
+                <div class="temp_info">
+                    <h2> <span id="temp">0</span><sup>o</sup><sup>C</sup></h2> 
+                </div>
+                <div class="image">
+                    <img src="https://oxenticstemplates.biz/templatemonster/weather/images/banne-img-right.png" alt="">
+                </div>
+
+            </div>
+
+                <div class="search">
+                    <input id="user_input" type="text" placeholder="enter city">
+                    <button onclick="checkTemp()" id="srch">Search</button>
+                </div>
+            
+        </div>
+    </section>
+    <script src="weather1.js"></script>
+</body>
+</html>

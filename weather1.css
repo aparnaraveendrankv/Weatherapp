@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+.weatherapp {
+    background-image: url("https://images.unsplash.com/photo-1536532184021-da5392b55da1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZSUyMHNreXxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.location{
+    text-align: right;
+    margin: 50px 100px 0px 0px;
+}
+l.location h3, .location h5{
+    margin: 0;
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px ;
+    margin-top: 80px;
+}
+.temp_info h2{
+    font-size: 60px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+.search input{
+    height: 40px;
+    width: 400px;
+}
+.search button{
+    border: 0;
+   background-color: cornflowerblue;
+   color: white;
+   font-size: 18px;
+   padding: 0px 30px;
+}
